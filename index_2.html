@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>sverkavin.kz</title>
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">-->
+    <link rel="stylesheet" href="style_2.css">
+</head>
+
+<body>
+   <div class="page">
+       <header>
+           <img class="logo" src="images/logo.png" alt="SverkaVin">
+           <nav>
+               <ul class="nav_links">
+                   <li><a href="#">Инструкция</a></li>
+                   <li><a href="#">Контакты</a></li>
+               </ul>
+           </nav>
+           <a class="cta" href="#"><button>+7(747)-862-19-46</button></a>
+       </header>
+       <div class="title-1">
+           <h1>ПОЛУЧИ ПОЛНЫЙ ОТЧЕТ ОБ АВТОМОБИЛЕ</h1>
+       </div>
+       <div class="container">
+           <div class="title">ЗАКАЖИ ОСМОТР АВТОМОБИЛЯ СПЕЦИАЛИСТОМ</div>
+           <form onsubmit="sendMessage(this)">
+               <div class="user_details">
+                   <div class="input_box">
+                       <label for="name"></label><br>
+                       <input class="form" id="name" name="name" placeholder="Ваше имя" required>
+                   </div>
+
+                   <div class="input_box">
+                       <label for="number"></label><br>
+                       <input class="form" id="number" name="number" type="text" placeholder="Номер телефона" required>
+                   </div>
+               </div>
+               <div class="button">
+                   <input type="submit" value="Заказать осмотр">
+               </div>
+           </form>
+       </div>
+       <div class="wrapper">
+           <h2>ДЛЯ ЧЕГО НУЖНА УСЛУГА ОСМОТРА АВТО</h2>
+           <div class="video_wrapper">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/_pfbbPXFJWs" frameborder="0" allowfullscreen></iframe>
+           </div>
+       </div>
+       <footer>
+           <img class="logo_footer" src="images/logo_white.png" alt="Logo">
+           <nav>
+               <ul class="footer_nav_links">
+                   <li><a href="#">Контакты:</a></li>
+                   <li><a href="#">Адрес:</a></li>
+               </ul>
+           </nav>
+           <ul class="footer_nav_info">
+               <li><a href="#">+7(747)-862-19-46</a></li>
+               <li><a href="#">Аль-Фараби 21, блок 9</a></li>
+           </ul>
+           <!--nav>
+               <ul class="footer_nav_info">
+                   <li><a href="#">+7(747)-862-19-46</a></li>
+                   <li><a href="#">Аль-Фараби 21, блок 9</a></li>
+               </ul>
+           </nav>-->
+       </footer>
+   </div>
+</body>
+<script src="test.js"></script>
+</html>

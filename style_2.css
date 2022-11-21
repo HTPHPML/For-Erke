@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-image: url("images/background_2.png");
+    font-family: "Lato", sans-serif;
+    background-repeat: no-repeat;
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px 10%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+
+.input_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px 10%;
+}
+
+.form {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    width: 400px;
+    height: 55px;
+    left: 207px;
+    top: 3907px;
+    border: 2px solid #C4C4C4;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.user_details .input_box input {
+    padding-left: 20px;
+    outline: none;
+}
+
+.user_details .input_box input:focus,
+.user_details .input_box input:valid {
+    border-color: #6166DE;
+}
+
+form .button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px 10%;
+}
+
+form .button input {
+    width: 230px;
+    height: 55px;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background: #6166DE;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+li, a {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    color: #0b0b0b;
+    text-decoration: none;
+}
+
+button {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    color: #6166DE;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+    z-index: 10;
+    background: #FFFFFF;
+
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 321px;
+    height: 70px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #6166DE;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(255,255,255, 0.3);
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #6166DE;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    z-index: 11;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    padding-bottom: 200px;
+}
+
+.video_wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.video_wrapper iframe {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 10% 35px;
+    background: #6166DE;
+    margin-top: auto;
+}
+
+.logo_footer {
+    width: 127.25px;
+    height: 73px;
+}
+
+.footer_nav_links {
+    list-style: none;
+}
+
+.footer_nav_links li {
+    display: inline-block;
+    padding: 0px 100px 50px;
+}
+
+.footer_nav_links li a {
+    color: #FFFFFF;
+}
+
+.footer_nav_info {
+    list-style: none;
+}
+
+.footer_nav_info li {
+    display: inline-block;
+    padding: 0px 100px 50px;
+}
+
+.footer_nav_info li a {
+    color: #FFFFFF;
+}
+.background_image {
+    z-index: 0;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

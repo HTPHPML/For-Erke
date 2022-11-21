@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>SverkaVin</title>
+    <link rel="stylesheet" href="style_3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#" class="menu-link">Инструкция</a></li>
+                <li><a href="#" class="menu-link">Контакты</a></li>
+                <li><a href="#" class="number-btn menu-link">+7(747)-862-19-46</a></li>
+            </ul>
+        </div>
+    </header>
+
+<!--    modal shitus-->
+    <div id="myModal" class="modal">
+        <div id="p1" class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-stuff">
+                <p class="p-modal">Выберите услугу</p>
+                <div class="choice-buttons">
+                    <button class="b1">Технический Отчет</button>
+                    <button class="b1">Юредический Отчет</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="test.js"></script>
+<!--    modal shitus-->
+
+    <main class="main">
+        <div class="1-block">
+            <div class="text-header">
+                <h1>Получи полный отчет<br> об истории автомобиля</h1>
+            </div>
+            <div class="p-under-header">
+                <p>Введите VIN код и получите отчет об истории продаж,<br>
+                    эксплуатации, залогах других данных транспортного средства.</p>
+                <div>
+                    <button type="submit" class="btn-submit">Посмотреть пример<br>полного отчета ></button>
+                </div>
+            </div>
+            <div class="container">
+                <form>
+                    <label for="vin"></label><input id="vin" type="text" placeholder="WUYAP64B01N121454">
+                    <button onclick="search()" class="btn-text">Проверить машину</button>
+
+                </form>
+            </div>
+        </div>
+        <div class="block-2">
+            <div>
+                <h3>ДЛЯ ЧЕГО НУЖНА УСЛУГА ОСМОТРА АВТО</h3>
+            </div>
+            <div>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/udLqt-kZ3dQ" title="YouTube video player"></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
